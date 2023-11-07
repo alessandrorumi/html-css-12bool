@@ -1,11 +1,20 @@
 [class*= "col-"] {
   /* DEBUG */
-  background-color: dodgerblue;
+  background-color: #006cfa;
   min-height: 50px;
   border: 1px solid white;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 15px;
 }
 
+.container-inside {
+  margin-bottom: 20px;
+}
+
+.nested {
+  background-color: #00e165;
+  margin: 0 1px;
+}
