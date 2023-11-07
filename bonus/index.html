@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/lib/framework.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Griglia Framework</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="container-inside">
+      <h1>Nested</h1>
+
+      <div class="row">
+        <div class="col-8">
+          <div class="nested col-3"></div>
+          <div class="nested col-6"></div>
+          <div class="nested col-3"></div>
+        </div>
+        <div class="col-4">
+          <div class="nested col-6"></div>
+          <div class="nested col-6"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-inside">
+      <h1>Alignment</h1>
+
+      <div class="row start">
+        <div class="col-6">start</div>        
+      </div>
+      <div class="row center">
+        <div class="col-6">center</div>
+      </div>
+      <div class="row end">
+        <div class="col-6">end</div>
+      </div>
+
+      <div class="row top">
+        <div class="double col-6"></div>
+        <div class="col-6">top</div>
+      </div>
+      <div class="row middle">
+        <div class="double col-6"></div>
+        <div class="col-6">middle</div>
+      </div>
+      <div class="row bottom">
+        <div class="double col-6"></div>
+        <div class="col-6">bottom</div>
+      </div>
+    </div>
+      
+    <div class="container-inside">
+      <h1>Justify Content</h1>
+      <h2>Space Around</h2>
+
+      <div class="row">
+        <div class="col-12 around">
+          <div class="nested col-2"></div>
+          <div class="nested col-2"></div>
+          <div class="nested col-2"></div>
+        </div>
+      </div>
+
+      <h2>Space Between</h2>
+      <div class="row">
+        <div class="col-12 between">
+          <div class="nested col-2"></div>
+          <div class="nested col-2"></div>
+          <div class="nested col-2"></div>
+        </div>
+    </div>
+      
+    </div>
+
+</body>
+</html>

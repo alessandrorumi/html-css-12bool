@@ -1,0 +1,57 @@
+[class*= "col-"] {
+  /* DEBUG */
+  background-color: #006cfa;
+  min-height: 50px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.container-inside {
+  margin-bottom: 20px;
+}
+
+.nested {
+  background-color: #00e165;
+  margin: 0 1px;
+  border: 0;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.double {
+  height: 100px;
+}
+
+.top {
+  align-items: start;
+}
+
+.middle {
+  align-items: center;
+}
+
+.bottom {
+  align-items: end;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
