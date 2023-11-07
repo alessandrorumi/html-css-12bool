@@ -1,0 +1,11 @@
+[class*= "col-"] {
+  /* DEBUG */
+  background-color: dodgerblue;
+  min-height: 50px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
